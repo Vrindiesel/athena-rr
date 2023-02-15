@@ -261,7 +261,7 @@ def main():
         print(f"[USER] {t['user_text']}")
         print(f"[ATH ] {t['athena_resp']}")
     print(f"[USER] {conv['this_turn_text']}")
-
+    print("\nScored Responses")
     for r in ranker.rank(conv):
         print("-")
         print(round(r["score"], 5), r["candidate_text"])
