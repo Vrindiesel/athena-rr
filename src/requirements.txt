@@ -1,0 +1,5 @@
+six
+boto3
+requests
+torch==1.7.1
+tqdm
